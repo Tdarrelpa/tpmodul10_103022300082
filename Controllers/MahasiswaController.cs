@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using tpmodul10_103022300144.Models;
+using tpmodul10_103022300082.Models;
 
 namespace tpmodul10_103022300082.Controllers
 {
@@ -51,7 +51,7 @@ namespace tpmodul10_103022300082.Controllers
             return CreatedAtAction(nameof(Get), new { id = mahasiswa.Id }, mahasiswa);
         }
 
-        // PUT api/<MahasiswaController>/5
+        /* PUT api/<MahasiswaController>/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] MahasiswaModel mahasiswa)
         {
@@ -72,6 +72,7 @@ namespace tpmodul10_103022300082.Controllers
 
             return NoContent();
         }
+        */
 
         // DELETE api/<MahasiswaController>/5
         [HttpDelete("{id}")]

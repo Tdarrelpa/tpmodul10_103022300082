@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace tpmodul10_103022300144.Models
+namespace tpmodul10_103022300082.Models
 {
     public class MahasiswaModel
     {
