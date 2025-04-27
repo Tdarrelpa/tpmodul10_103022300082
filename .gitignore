@@ -361,3 +361,11 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Also ignore this
+tpmodul10_103022300082.csproj
+tpmodul10_103022300082.sln
+bin/
+obj/
+Properties/
+Controllers/
